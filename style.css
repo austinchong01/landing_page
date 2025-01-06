@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 16px 150px;
+    padding: 16px 300px;
 }
 
 a {
@@ -34,7 +34,7 @@ a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 100px 150px;
+    padding: 100px 300px;
 }
 
 .hero_content {
@@ -74,23 +74,86 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
+    margin: auto;
 }
 
 .header2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 32px;
+    margin: 50px;
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .boxes {
     display: flex;
-    padding: 100px 225px;
-    gap: 32px;
+    gap: 50px;
 }
 
-.box {
+.quote {
+    padding: 150px 350px;
+    background-color: #E5E7EB;
+}
+
+.text {
+    /* display: block; */
+    font-size: 36px;
+    font-family: "light italic", sans-serif;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.action header{
+    color: white;
+}
+
+.action button {
+    color: 3882F6;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
     text-align: center;
+    padding: 25px;
 }
